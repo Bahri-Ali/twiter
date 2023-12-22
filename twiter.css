@@ -1,0 +1,351 @@
+body{
+    background-color: black;
+}
+header{
+    height: 100%;
+    width: 25%;
+    position: fixed;
+}
+.links{
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    margin-left: 49%;
+    margin-top: 10px;
+    height:  80%;
+    
+}
+.links > a{
+    color: white;
+    max-width: 400;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    font-weight: 500;
+    width: fit-content;
+}
+.links > a> span{
+    padding-left: 15px;
+}
+.info-twiter>i{
+    color: #949090;
+}
+.links > a:hover{
+    background-color: #969393;
+    border-radius: 10px;
+}
+.links > button{
+    height: 35px;
+    width: 170px;
+    border-radius: 25px;
+    background-color:deepskyblue;
+    border-color: transparent;
+    margin-top: 25px;
+    color: white;
+}
+.links > button:hover{
+    background-color:rgb(22, 197, 255);   
+    transition-delay: 0.3ms;
+}
+.account{
+    padding-left: 49%;
+    display: flex;
+    align-items: center;
+    margin-top: -30px;
+    width: 170px;
+    justify-content: space-between;
+}
+.acount{
+    display: flex;
+    text-decoration: none;
+    align-items: center;
+    justify-content: space-between;
+    width: 150px;
+    margin-top: 50px;
+    margin-left: 20px;
+}
+a > img, img {
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    margin-left: 5px
+}
+.account-name{
+font-size: 15px;
+color: white;
+font-weight: 300;
+padding-left: 0 10px;
+}
+.account-detail{
+display: flex;
+flex-direction: column;
+}
+.account-href{
+    font-size: 12px;
+    font-weight: 200;
+    color: #969393;
+    margin-top: 5px;
+}
+.acount > i{
+    color: white;
+}
+main{
+    width: 71%;
+    height: 100%;
+    margin-left:29%;
+
+}
+.main{
+    width: 100%;
+    height:100%;
+    display: flex;
+}
+/* barre lola fi left main*/
+.left-main{
+    width: 49%;
+    border-left: solid 2px #424040 ;
+    border-right: solid  2px #424040 ;
+}
+.home{
+    width: 100%;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: white;
+    position: sticky;
+    top: 0;
+    font-weight: 400;
+    background-color: black;;
+}
+.home>span{
+    color: white;
+    font: 20px;
+    font-weight: 600;
+    margin-left: 10px;
+    font-style: italic;
+}
+.items{
+    display: flex;
+    color: deepskyblue;
+}
+.plus{
+    margin-top: 10px;
+    margin-left: 10px;
+    display: flex;
+    align-self: center;
+    justify-content: space-between;
+    color: white;
+}
+.whats-haping{
+display: flex;
+align-items: center;
+}
+.whats-haping > input{
+    width: 275px;
+    margin-left: 10px;
+    height: 20px;
+    background-color: black;
+    border: none;
+    outline: none;
+    color: white;
+}
+.img{
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+    cursor: pointer;
+}
+button{
+    height: 25px;
+    width: 80px;
+    border-radius: 50px;
+    background-color: deepskyblue;
+    border: none;
+    margin-right: 10px;
+    color: white;
+}
+.new-tweet{
+    margin-top: 10px;
+    border-top: #424040 solid 1px ;
+    display: flex;
+    align-items: start;
+    flex-direction: column;
+    color: aliceblue;
+    width: 100%;
+    padding-top: 10px;
+}   
+.tweet{
+    display: flex;
+    width: 100%;
+}
+.info-twiter{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+.info-twiter > a  {
+    display: flex;
+    color: white;
+    text-decoration: none;
+    font-size: 12px;
+    font-weight: 900;
+    align-items: center;
+}
+.info-twiter > a >span > span{
+    font-size: 10px;
+    font-weight: 300;
+    color: #424040;
+    margin-left: 5px;
+}
+.the-poste{
+    margin-left: 55px;
+    color: white;
+    margin-top: -20px;
+    font-size: 11px;
+    font-weight: 300;
+}
+.items{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 40%;
+    color:rgb(0, 168, 224);
+}
+.items>i{
+    font-size: 15px;
+    cursor: pointer;
+}
+.items2>i{
+    font-size: 15px;
+    cursor: pointer;
+}
+.items2{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+    color:#949090;
+}
+/*right main*/
+.right-main{
+    width: 49%;
+    height: 100%;
+    margin-left: 2%;
+    display: flex;
+    flex-direction: column;
+}
+.input_surche{
+    height: 50px;
+    width: 90%;   
+    margin: 0 auto;
+    display: flex;
+    position: sticky;
+    top: 0;
+}
+.input_surche>input{
+    height: 45px;
+    width: 100%;
+    background-color:#303030;
+    color:#949090 ;
+    padding-left: 15px;
+    margin: 0 auto;
+    border-radius: 9999px;
+    outline: none;
+    display: flex;
+    position: sticky;
+    border: none;
+}
+
+.treading{
+    height: 350px;
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    background-color: #303030;
+    margin-top: 15px;
+    border-radius: 10px;
+    justify-content: space-between;
+}
+.treading_h1{
+    margin-left: 10px;
+    font-size: 20px;
+    line-height: 10px;
+    font-weight: 900;
+    color: white;
+}
+.tendense{
+    display: flex;
+    justify-content: space-between;
+}
+.tendens_info{
+    display: flex;
+    flex-direction:column ;
+    margin-left: 15px;
+}
+.span1{
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 10px;
+    color: #949090;
+}
+.span2{
+    font-size: 18px;
+    line-height: 10px;
+    margin-top: 13px;
+    color: white;
+    cursor: pointer;
+}
+.more_folowores>p{
+    color:rgb(0, 167, 223) ;
+    font-size: 15px;
+    cursor: pointer;
+    font-weight: 800;
+    margin-left: 15px;
+}
+.who_to_folow{
+    background-color: #303030;
+    height: 150px;
+    width: 90%;
+    border-radius: 10px;
+    margin: 0 auto;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+}
+.h1_who_to_folow{
+    color: white;
+    font-size: 16px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+.person{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.person_info{
+    display:flex ;
+    flex-direction: column;
+}
+
+.div{
+    display: flex;
+    align-items: center;
+}
+.span5{
+    color: white;
+    font-size: 13px;
+    margin-left: 5px;
+}
+.span6{
+    font-size: 12px;
+    color:#949090;
+    margin-left: 5px;
+    margin-top: 2px;
+}
